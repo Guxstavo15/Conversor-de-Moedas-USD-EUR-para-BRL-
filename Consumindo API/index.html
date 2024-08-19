@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Conversor de Moedas</h1>
+
+    <div class="converter">
+        <label for="valor-usd">Valor em Dólar (USD):</label>
+        <input type="number" id="valor-usd" placeholder="Digite o valor em USD" oninput="converterUSDParaBRL()">
+        <div class="resultado" id="resultado-usd">Valor em Real (BRL): -</div>
+    </div>
+
+    <div class="converter">
+        <label for="valor-eur">Valor em Euro (EUR):</label>
+        <input type="number" id="valor-eur" placeholder="Digite o valor em EUR" oninput="converterEURParaBRL()">
+        <div class="resultado" id="resultado-eur">Valor em Real (BRL): -</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
